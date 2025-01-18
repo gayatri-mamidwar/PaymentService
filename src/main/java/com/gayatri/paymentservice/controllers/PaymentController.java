@@ -18,7 +18,7 @@ public class PaymentController {
     env vari-> 3 dots -> edit config-> env vari
 
     dummy example- PROVIDE UR OWN ID AND SECRET
-    RAZORPAY_KEY_ID=rzp_test_l0iP1PIPAD8plf;RAZORPAY_KEY_SECRET=Nur7rPbF0LgefglsueN3gm0e
+    
     */
     private RazorPayGateway razorPayGateway;
     private StripeGateway stripeGateway;
