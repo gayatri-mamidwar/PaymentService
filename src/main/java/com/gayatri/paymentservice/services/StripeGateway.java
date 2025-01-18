@@ -14,7 +14,7 @@ public class StripeGateway implements PaymentService{
 
         @Override
         public String generatePaymentLink(Long orderId) throws RazorpayException, StripeException {
-            Stripe.apiKey = "sk_test_51QRu3gKHqOK4zPOMXPGQDHLDPVt3T4dJmdHP90N6OcQN1HgQlXM3AqMLJ7ALUbtIJlb8QXmVyt3OencLSqTatwss00qan43qcq";
+            Stripe.apiKey = "";
 
             PriceCreateParams priceCreateParams =
                     PriceCreateParams.builder()
